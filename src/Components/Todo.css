@@ -1,0 +1,90 @@
+.todo{
+    background-color: #222;
+    margin: 0.5rem;
+    border-radius: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+}
+.todo:hover{
+    background-color: #111;
+}
+.todo p{
+    opacity: 0.6;
+}
+.btn{
+    border: none;
+    background-color: transparent;
+    color: red;
+    cursor: pointer;
+}
+
+
+.todo-high {
+    border-left: 5px solid #ff6b6b; /* Red for high */
+  }
+  
+  .todo-medium {
+    border-left: 5px solid #feca57; /* Yellow for medium */
+  }
+  
+  .todo-low {
+    border-left: 5px solid #1dd1a1; /* Green for low */
+  }
+
+.todo {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 1rem;
+    transition: all 0.3s ease;
+    transform-origin: center top;
+  }
+  
+  .todo-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .todo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .priority-badge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .priority-high {
+    background-color: #ff6b6b33;
+    color: #ff6b6b;
+  }
+  
+  .priority-medium {
+    background-color: #feca5733;
+    color: #feca57;
+  }
+  
+  .priority-low {
+    background-color: #1dd1a133;
+    color: #1dd1a1;
+  }
+
+.todo {
+    word-break: break-word; 
+  }
+  
+  .description {
+    font-weight: 600;
+    color: #1dd1a1;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+
+  }
